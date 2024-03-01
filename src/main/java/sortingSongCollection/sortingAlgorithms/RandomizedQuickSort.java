@@ -3,6 +3,17 @@ package sortingSongCollection.sortingAlgorithms;
 import sortingSongCollection.songs.Song;
 
 public class RandomizedQuickSort implements SortingAlgorithm {
+    //take array and values returns sorted sub array
+   //
+
+    private int computePivot(int low, int high){
+        int pivot = high - low;
+        return(pivot);
+
+
+    }
+
+
 
     // FILL IN CODE: Add helper methods partition and computePivot to this class.
     // In computePivot, the pivot value should be computed as the median of values at three random indices of the subarray from low to high
@@ -34,6 +45,9 @@ public class RandomizedQuickSort implements SortingAlgorithm {
      */
     @Override
     public void sort(Song[] songs, int low, int high, boolean isAscending, StringBuilder sb) {
+        int first;
+        int second;
+        int third;
         // FILL IN CODE
 
     }

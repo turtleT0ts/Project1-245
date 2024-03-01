@@ -54,6 +54,8 @@ public class SongCollection {
         // sorts songs from low to high
         // sorts in ascending order if isAscending is true (otherwise in descending order)
         StringBuilder sb = new StringBuilder();
+        //NEED FILEEEEEEEEEEEEEEEEE
+        sortingAlgorithm.sort(songs,low, high, isAscending, sb);
         // FILL IN CODE: Call the sort method of the SortingAlgorithm set for this collection
         // Write the string from StringBuilder sb to the file with the given filename
 
